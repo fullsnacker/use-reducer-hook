@@ -34,6 +34,11 @@ module.exports = {
 		'linebreak-style': ['error', 'unix'],
 		quotes: ['error', 'single'],
 		semi: ['error', 'always'],
-		'react/react-in-jsx-scope': 'off'
+		'react/react-in-jsx-scope': 'off',
+		'react/prop-types': 0,
+		'no-unused-vars': 0
+		// 'no-unused-vars': 'error'
+		// 'no-unused-vars': 0
+		// 'no-unused-vars': ['warn', { varsIgnorePattern: '__' }]
 	}
 };
